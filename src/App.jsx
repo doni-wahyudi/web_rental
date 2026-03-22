@@ -13,7 +13,7 @@ import './pages/Contact.css';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/web_rental/">
       <ScrollToTop />
       <Navbar />
       <Routes>
