@@ -1,0 +1,42 @@
+export const testimonials = [
+  {
+    id: 1,
+    name: 'Budi Santoso',
+    company: 'PT Maju Bersama',
+    rating: 5,
+    text: 'Pelayanan sangat memuaskan! Driver ramah dan profesional. Mobil bersih dan terawat. Sudah 2 tahun menggunakan jasa RentalKu untuk kebutuhan operasional perusahaan.',
+    avatar: null,
+  },
+  {
+    id: 2,
+    name: 'Siti Rahayu',
+    company: 'Keluarga',
+    rating: 5,
+    text: 'Antar jemput ke Bandung sangat nyaman. Driver tahu jalan dan sangat sopan. Harga juga lebih terjangkau dibanding kompetitor. Pasti pakai lagi!',
+    avatar: null,
+  },
+  {
+    id: 3,
+    name: 'Herman Wijaya',
+    company: 'CV Nusantara Logistik',
+    rating: 5,
+    text: 'Kami menggunakan layanan sewa bulanan untuk armada operasional. Proses mudah, unit selalu siap, dan jika ada masalah langsung ada replacement. Top!',
+    avatar: null,
+  },
+  {
+    id: 4,
+    name: 'Diana Putri',
+    company: 'Wedding Planner',
+    rating: 4,
+    text: 'Sewa Alphard untuk acara pernikahan klien saya. Mobilnya mewah, bersih, dan driver sangat on-time. Client sangat puas dengan layanannya.',
+    avatar: null,
+  },
+  {
+    id: 5,
+    name: 'Andi Prasetyo',
+    company: 'Startup Tech',
+    rating: 5,
+    text: 'Airport transfer selalu tepat waktu. Tracking flight aktif jadi driver sudah standby saat kami landing. Sangat membantu untuk kunjungan client dari luar kota.',
+    avatar: null,
+  },
+];

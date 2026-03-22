@@ -1,0 +1,86 @@
+/* ===== WhatsApp Float ===== */
+.whatsapp-float {
+  position: fixed;
+  bottom: var(--space-8);
+  right: var(--space-6);
+  width: 60px;
+  height: 60px;
+  background-color: var(--color-whatsapp);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-xl);
+  z-index: 999;
+  text-decoration: none;
+  transition: all var(--transition-base);
+  animation: float 3s ease-in-out infinite;
+}
+
+.whatsapp-icon {
+  font-size: 32px;
+  z-index: 2;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+  background-color: var(--color-whatsapp-dark);
+}
+
+.whatsapp-tooltip {
+  position: absolute;
+  right: 75px;
+  background-color: var(--color-bg-card);
+  color: var(--color-primary);
+  padding: 6px 14px;
+  border-radius: var(--radius-full);
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  box-shadow: var(--shadow-md);
+  opacity: 0;
+  visibility: hidden;
+  transition: all var(--transition-fast);
+  white-space: nowrap;
+}
+
+.whatsapp-float:hover .whatsapp-tooltip {
+  opacity: 1;
+  visibility: visible;
+  right: 80px;
+}
+
+.ripple-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: var(--color-whatsapp);
+  animation: ripple 2s infinite ease-in-out;
+  z-index: 1;
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .whatsapp-float {
+    bottom: var(--space-6);
+    right: var(--space-4);
+    width: 50px;
+    height: 50px;
+  }
+  .whatsapp-icon {
+    font-size: 26px;
+  }
+}
