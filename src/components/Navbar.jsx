@@ -29,6 +29,7 @@ export default function Navbar() {
     { to: '/', label: 'Beranda' },
     { to: '/armada', label: 'Armada' },
     { to: '/tentang', label: 'Tentang Kami' },
+    { to: '/artikel', label: 'Artikel' },
     { to: '/faq', label: 'FAQ' },
     { to: '/kontak', label: 'Kontak' },
   ];

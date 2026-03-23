@@ -8,6 +8,8 @@ import FleetPage from './pages/FleetPage';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import FAQPage from './pages/FAQPage';
+import Articles from './pages/Articles';
+import ArticleDetail from './pages/ArticleDetail';
 import './App.css';
 import './pages/Contact.css';
 
@@ -22,6 +24,8 @@ function App() {
         <Route path="/tentang" element={<About />} />
         <Route path="/kontak" element={<Contact />} />
         <Route path="/faq" element={<FAQPage />} />
+        <Route path="/artikel" element={<Articles />} />
+        <Route path="/artikel/:slug" element={<ArticleDetail />} />
       </Routes>
       <Footer />
       <WhatsAppFloat />
