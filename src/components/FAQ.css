@@ -100,3 +100,9 @@
     text-align: center !important;
   }
 }
+
+@media (max-width: 768px) {
+  .faq {
+    padding-bottom: calc(var(--space-20) + 80px);
+  }
+}
