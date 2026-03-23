@@ -207,6 +207,7 @@
 
 .drawer-cta {
   padding: var(--space-6);
+  padding-bottom: calc(var(--space-6) + 40px); /* Extra padding for mobile bottom nav bars */
   display: flex;
   flex-direction: column;
   gap: var(--space-3);
@@ -229,7 +230,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: var(--space-2);
+    width: 44px;
+    height: 44px;
+    margin-right: var(--space-2);
     background: transparent;
     border: none;
   }
