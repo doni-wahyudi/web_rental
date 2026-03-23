@@ -20,7 +20,7 @@ export default function About() {
       {/* Company Overview */}
       <section className="section pb-0">
         <div className="container">
-          <div className="grid-2-cols" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '4rem', alignItems: 'center' }}>
+          <div className="about-grid">
             <div className="about-image reveal-left" ref={leftRef}>
               <div className="glass" style={{ padding: '1rem', borderRadius: 'var(--radius-2xl)', background: 'rgba(212, 168, 67, 0.1)' }}>
                 <img 
