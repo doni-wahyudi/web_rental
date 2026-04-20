@@ -15,7 +15,7 @@ import './pages/Contact.css';
 
 function App() {
   return (
-    <BrowserRouter basename="/web_rental/">
+    <BrowserRouter basename="/">
       <ScrollToTop />
       <Navbar />
       <Routes>
